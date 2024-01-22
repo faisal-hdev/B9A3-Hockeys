@@ -29,7 +29,64 @@
       }
     </style>
   </head>
-  <body class="font-manrope">
-    <h1 class="text-6xl">Hello world</h1>
+  <body class="font-manrope container mx-auto">
+    <header>
+      <!-- Navbar start -->
+      <nav class="lg:my-8 md:my-6 my-3">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-7 w-7"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="text-xl font-bold lg:text-3xl cursor-pointer"
+              >Hockey<span style="color: red">’</span>s</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal font-normal text-lg px-1">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <button
+              class="bg-red-500 lg:font-semibold hover:bg-red-800 duration-300 font-normal px-3 py-2 md:text-lg lg:text-lg lg:px-5 lg:py-3 text-white rounded-lg"
+            >
+              Get Ticket
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
